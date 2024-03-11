@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import sklearn
 from sklearn.metrics.pairwise import cosine_similarity
 
 def preprocess_data(data):
